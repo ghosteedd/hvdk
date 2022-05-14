@@ -1,0 +1,5 @@
+/Builds
+*.dll
+*.lib
+*.pro.user
+*.pro.user.*
