@@ -13,13 +13,13 @@ LIBS += \
         -lsetupapi
 
 SOURCES += \
-        src/base.cpp \
+        src/hvdkbase.cpp \
         src/keyboard.cpp \
         src/mouseabs.cpp \
         src/mouserel.cpp
 
 HEADERS += \
-        src/base.h \
+        src/hvdkbase.h \
         src/keybdkeys.h \
         src/keyboard.h \
         src/mouseabs.h \

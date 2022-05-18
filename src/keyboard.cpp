@@ -46,7 +46,7 @@ struct KeyboardReport
 hvdk::Keyboard::Keyboard()
 {
     setIDs(0xF00F, 0x00000003);
-    setSendDataSize(14);
+    setSendDataSize(KEYBOARD_DATA_SIZE);
     resetData();
 
     _pingWorking = false;
@@ -168,7 +168,7 @@ bool hvdk::Keyboard::releaseAllKeys()
 
 void hvdk::Keyboard::setModKeyState(unsigned char keyCode, bool isDown)
 {
-    switch(keyCode)
+    switch (keyCode)
     {
         case KEYBD_MOD_LCTRL:
             _lCtrlDown = isDown;
@@ -199,7 +199,7 @@ void hvdk::Keyboard::setModKeyState(unsigned char keyCode, bool isDown)
 
 unsigned char hvdk::Keyboard::getFreeKeysCount()
 {
-    byte result = 0;
+    unsigned char result = 0;
     for (int i = 0; i < 5; i++)
     {
         if (_keys[i] == 0)

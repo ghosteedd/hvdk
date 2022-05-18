@@ -1,7 +1,7 @@
 #ifndef KEYBOARD_H
 #define KEYBOARD_H
 
-#include "base.h"
+#include "hvdkbase.h"
 #include "keybdkeys.h"
 
 namespace hvdk

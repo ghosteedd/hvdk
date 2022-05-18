@@ -84,10 +84,10 @@ namespace keyboard
     }
 
     bool clickOnKeys(Keyboard& self, unsigned short keyCode0 = 0,
-                                        unsigned short keyCode1 = 0,
-                                        unsigned short keyCode2 = 0,
-                                        unsigned short keyCode3 = 0,
-                                        unsigned short keyCode4 = 0)
+                                     unsigned short keyCode1 = 0,
+                                     unsigned short keyCode2 = 0,
+                                     unsigned short keyCode3 = 0,
+                                     unsigned short keyCode4 = 0)
     {
         if(keyCode0 > 255 || keyCode1 > 255 ||
            keyCode2 > 255 || keyCode3 > 255 ||

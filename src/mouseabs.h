@@ -1,7 +1,7 @@
 #ifndef MOUSEABS_H
 #define MOUSEABS_H
 
-#include "base.h"
+#include "hvdkbase.h"
 
 #define MOUSE_ABS_L_BTN 0x01
 #define MOUSE_ABS_M_BTN 0x04

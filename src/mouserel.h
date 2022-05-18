@@ -1,7 +1,7 @@
 #ifndef MOUSEREL_H
 #define MOUSEREL_H
 
-#include "base.h"
+#include "hvdkbase.h"
 
 #define MOUSE_REL_L_BTN 0x01
 #define MOUSE_REL_M_BTN 0x04

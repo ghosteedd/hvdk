@@ -38,14 +38,14 @@ LIBS += -L$${BOOST_PATH}/libs
 LIBS += -L$${BOOST_PATH}/stage/lib
 
 SOURCES += \
-        src/base.cpp \
+        src/hvdkbase.cpp \
         src/keyboard.cpp \
         src/mouseabs.cpp \
         src/mouserel.cpp \
         python-warp/pyhvdk.cpp
 
 HEADERS += \
-        src/base.h \
+        src/hvdkbase.h \
         src/keyboard.h \
         src/mouseabs.h \
         src/mouserel.h \

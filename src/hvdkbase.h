@@ -1,5 +1,5 @@
-#ifndef BASE_H
-#define BASE_H
+#ifndef HVDKBASE_H
+#define HVDKBASE_H
 
 #include <mutex>
 
@@ -43,4 +43,5 @@ namespace hvdk
         bool sendData(PVOID data);
     };
 }
-#endif // BASE_H
+
+#endif // HVDKBASE_H

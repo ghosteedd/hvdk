@@ -2,7 +2,7 @@
 
 It's unofficial C++ library and Python module for control [Tetherscript HID Virtual Drivers](https://tetherscript.com/hid-driver-kit-home/). If you want use Tetherscript drivers, but don't want write routines on WDK, it's project for you. You can [download drivers pack here](https://tetherscript.com/hid-driver-kit-download/) ([see drivers license here](https://tetherscript.com/kbhid/hidkb-licensing/)).
 
-So, this project has worked with:
+So, this project has working with:
 
 * Virtual mouse absolute ([info](https://tetherscript.com/kbhid/hid-using-the-mouse-driver-abs/))
 * Virtual mouse relative ([info](https://tetherscript.com/kbhid/hid-using-the-mouse-driver-rel/))

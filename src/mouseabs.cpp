@@ -58,7 +58,7 @@ void hvdk::MouseAbs::setNewPos(unsigned short x, unsigned short y)
 
 void hvdk::MouseAbs::setButtonState(unsigned char button, bool isDown)
 {
-    switch(button)
+    switch (button)
     {
         case MOUSE_ABS_L_BTN:
             _leftButtonDown = isDown;
