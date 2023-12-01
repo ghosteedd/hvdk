@@ -151,7 +151,7 @@ Set modifier key state for custom action. You CAN'T use multiple keys in one par
 
 C++: `void setModKeyState(unsigned char keyCode, bool isDown = true)` 
 
-Python: `set_mod_key_state(key_code: int, is_down: boot = True) -> None`
+Python: `set_mod_key_state(key_code: int, is_down: bool = True) -> None`
 
 **Parameters:**
 

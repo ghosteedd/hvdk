@@ -1,3 +1,10 @@
+# UPDATE
+
+Driver pack now [discontinued](https://tetherscript.com/hid-blog/hvdk-now-discontinued/) by Tetherscript.
+If you want old installer, you can download it [here](https://drive.google.com/file/d/187LNApgncszKQCVv66DmujcytTRaHB40/).
+
+---
+
 # Tetherscript HID Virtual Drivers SDK
 
 It's unofficial C++ library and Python module for control [Tetherscript HID Virtual Drivers](https://tetherscript.com/hid-driver-kit-home/). If you want use Tetherscript drivers, but don't want write routines on WDK, it's project for you. You can [download drivers pack here](https://tetherscript.com/hid-driver-kit-download/) ([see drivers license here](https://tetherscript.com/kbhid/hidkb-licensing/)).
